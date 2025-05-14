@@ -35,24 +35,17 @@ g++ -std=c++11 main.cpp 8e6e92d2-3c37-4737-85e6-1cf3934f0646.cpp -o NAFS.exe
 Running
 Make sure the executable and the data files are in the same folder:
 
-arduino
-Copy
-Edit
+
 NAFS.exe
 Users.txt   (will be created on first run)
 Inquiry.txt (will be created on first run)
 From PowerShell or CMD:
 
-batch
-Copy
-Edit
+
 .\NAFS.exe
 Follow the on-screen menu prompts.
 
-File Structure
-bash
-Copy
-Edit
+
 .
 ├── main.cpp                   # `main()` + menu loops
 ├── NAFSSystem.cpp             # core logic (User/Admin/Passenger/Flight classes)
